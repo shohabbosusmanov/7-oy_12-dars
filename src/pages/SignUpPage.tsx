@@ -8,7 +8,7 @@ import Icon from "../components/ui/Icon";
 import ProgressStepAuth from "../components/ui/progress-step-auth";
 import useStepProgressAuth from "../hooks/requests/useStepProgressAuth";
 import PreviousButton from "../components/ui/PreviousButton";
-import { Illustration } from "./SignInPage";
+import Illustration from "../assets/images/signUpImages/Illustration.svg";
 
 const SignUpPage = () => {
     const [currentStep, setCurrentStep] = useState(1);
